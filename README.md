@@ -8,6 +8,6 @@ https://github.com/yohasebe/wp2txt
 
     $ mkdir /path/to/wikidump
     $ mkdir /path/to/wikidump/text
-    $ docker run -it -v /path/to/wikidump:/mnt/wikidump toshihikoyanase/wp2txt
+    $ docker run -it -v /path/to/wikidump:/mnt/wikidump toshihikoyanase/wp2txt /bin/bash
     # cd /mnt/wikidump
     # time wp2txt -i jawiki-20150805-pages-articles.xml.bz2 -o text/
